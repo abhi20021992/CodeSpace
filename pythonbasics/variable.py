@@ -34,4 +34,36 @@ print(int(20/19)) #they just extract the int out of the fload but it will not ro
 print(1.2-1.0)#0.19 wrong use decimal module rather than float as they have floating error
 
 
+#conversion notes
+#bool() will convert all value to true except 0, 0.0, '', "",None, {}, []
+print(bool(None))
+
+print(5 > 5)
+
+
+#slicing a string 
+name = 'my name is abhishek'
+print(name[0:7:2]) # syntax is start : end : gap or skip 
+
+#concatnation 
+
+print(f'my number is {5}')
+print(f'my number is {5 * 4}')
+
+print("my num is {}".format(5*3))
+
+#multi line string is done by ''' string ''' or same with double quote
+
+
+#bytes object is repersented by b at the start 
+byt = bytes(3)
+print(byt) #b'\x00\x00\x00'
+
+print(byt.decode('utf-8'))
+
+
+
+
+
+
 
